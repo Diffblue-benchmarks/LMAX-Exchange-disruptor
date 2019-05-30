@@ -1,5 +1,6 @@
 buildCmd: sh ./gradlew assemble
 testCmd: true
+classpathCmd: cat diffblue-classpath.txt
 lineLength: 4096
 skipVerification: true
 cbmcArguments:
