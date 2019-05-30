@@ -193,7 +193,7 @@ task diffbluePrintClasspath {
 		def file = new File('diffblue-classpath.txt')
 		file.write('.')
 		configurations.testRuntime.each {
-			file.append(':'+it.toString())
+			file.append('\n'+it.toString())
 		}
 	}
 }
