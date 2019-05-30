@@ -1,4 +1,4 @@
-buildCmd: sh ./gradlew assemble
+buildCmd: sh ./gradlew build
 testCmd: true
 classpathCmd: sh ./gradlew diffbluePrintClasspath > ignore.txt && cat diffblue-classpath.txt
 lineLength: 4096
